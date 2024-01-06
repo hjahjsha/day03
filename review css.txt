@@ -1,0 +1,17 @@
+# Nhúng css vào html 
+    - style inline: thuộc tính tyle của phân tử html 
+    - tag style: tgeer style, ảnh hưởng đến toàn bộ trang HTMl 
+
+
+#
+    - bộ chọn class
+    .class-name {
+        ....
+    }
+    - bộ chọn id: 
+    #id-name {
+        ...
+    }
+
+    - bộ chọn ngữ cảnh
+    

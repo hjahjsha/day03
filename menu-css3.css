@@ -1,0 +1,32 @@
+nav{
+    background-color: rgb(222, 199, 181) ;
+}
+ul{
+    list-style: none;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul a{
+    display: block;
+    padding: .7rem;
+    text-decoration: none;
+    border-right: 1px solid black;
+}
+nav ul a + ul {
+    display: none;
+}
+nav ul li:hover a + ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: wheat;
+    width: 13rem;
+}
+nav ul li a+ul a{
+    border-bottom: 1px solid red;
+}
+nav a:hover{
+    background-color: antiquewhite;
+}
